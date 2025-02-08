@@ -5,7 +5,7 @@ pkgs.mkShell {
     pkgs.kdePackages.qtdeclarative
     pkgs.pre-commit
     pkgs.typos
-
+		pkgs.qt5.full
   ];
   shellHook = ''
     # Required for qmlls to find the correct type declarations
